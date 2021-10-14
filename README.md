@@ -9,14 +9,17 @@ A simple url shortener allows one to:
 
 INSTALLING
 
-Clone this project and run it on your terminal 
-git clone https://github.com/wentingliuu/restaurant-list.git
+1. Clone this project and run it on your terminal
 
-Install npm kits
-npm install @handlebars/allow-prototype-access body-parser express express-handlebars handlebars mongoose
+  git clone https://github.com/wentingliuu/restaurant-list.git
 
-Run it
-npm run dev
+2. Install npm kits
+
+  npm install @handlebars/allow-prototype-access body-parser express express-handlebars handlebars mongoose
+
+3. Run it
+
+  npm run dev
 
 PREREQUISITES
 
