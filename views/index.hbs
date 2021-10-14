@@ -1,11 +1,15 @@
 <div class="container">
   {{#if url}}
-  <div class="d-inline-flex p-2 bd-highlight">
+  <h3 class="d-flex justify-content-center">The original URL</h3>
+  <div class="d-flex p-2 bd-highlight">
     <div style="font-size: 30px; text-align:center;">
+
       <a href="{{url.originalUrl}}" target="_blank" id="copyText">{{url.originalUrl}}</a>
     </div>
   </div>
-  <div class="d-inline-flex p-2 bd-highlight">
+  <h3 class="d-flex justify-content-center">The shortened URL</h3>
+  <div class="d-flex p-2 bd-highlight justify-content-center">
+
     <div style="font-size: 30px; text-align:center;">
       <a href="{{url.originalUrl}}" target="_blank" id="copyText">{{url.shortUrl}}</a>
     </div>
