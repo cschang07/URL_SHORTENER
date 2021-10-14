@@ -1,1 +1,14 @@
-<h2>Hello world! 這是 index</h2>
+<div class="container">
+  {{#if url}}
+  <div class="d-inline-flex p-2 bd-highlight">
+    <div style="font-size: 30px; text-align:center;">
+      <a href="{{url.originalUrl}}" target="_blank" id="copyText">{{url.originalUrl}}</a>
+    </div>
+  </div>
+  <div class="d-inline-flex p-2 bd-highlight">
+    <div style="font-size: 30px; text-align:center;">
+      <a href="{{url.originalUrl}}" target="_blank" id="copyText">{{url.shortUrl}}</a>
+    </div>
+  </div>
+  {{/if}}
+</div>
